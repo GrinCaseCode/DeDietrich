@@ -44,6 +44,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight: normal;
 }
 .wrapper {
+	padding-top: 77px;
 	overflow: hidden;
 }
 a {
@@ -182,10 +183,6 @@ form {
 	max-width: 100%;
 	height: auto;
 }
-.header {
-	font-size: 14px;
-	line-height: 21px
-}
 .logo-descr {
 	max-width: 192px;
 	line-height: 1.2;
@@ -218,10 +215,12 @@ form {
 .header {
 	padding: 15px 0;
 	background-color: #fff;
-	position: relative;
+	position: fixed;
 	z-index: 1000;
 	width: 100%;
 	top: 0;
+		font-size: 14px;
+	line-height: 21px;
 }
 .title-big {
 	font-size: 48px;
