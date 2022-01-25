@@ -567,6 +567,12 @@
 	.item-type__image {
 		height: 300px;
 	}
+	.item-billbord {
+		padding-right: 10px;
+	}
+	.item-billbord:last-child {
+		padding-right: 0;
+	}
 }
 
 /* Custom, iPhone Retina */
